@@ -1,7 +1,7 @@
 .venv/
 
-dakke/__pycache__/
-dakke/*/__pycache__/
+config/__pycache__/
+config/*/__pycache__/
 
 db.sqlite3
 
