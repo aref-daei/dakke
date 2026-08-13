@@ -1,0 +1,11 @@
+.venv/
+
+dakke/__pycache__/
+dakke/*/__pycache__/
+
+db.sqlite3
+
+# Env
+.env
+.env.*
+!.env.example
