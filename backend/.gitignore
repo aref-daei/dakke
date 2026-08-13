@@ -1,5 +1,8 @@
 .venv/
 
+apps/__pycache__/
+apps/*/__pycache__/
+
 config/__pycache__/
 config/*/__pycache__/
 
