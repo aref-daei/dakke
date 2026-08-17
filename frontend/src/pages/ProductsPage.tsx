@@ -1,9 +1,8 @@
-import { useLoaderData } from 'react-router';
 import type { Product } from '../types/product';
 
-export default function ProductsPage() {
-  const products = useLoaderData() as Product[];
-
+// Reusable products list component. Accepts products as a prop so it can be used
+// both by server-side Next.js pages and potential client-side usage.
+export default function ProductsList({ products }: { products: Product[] }) {
   return (
     <main>
       <h1>Products</h1>
