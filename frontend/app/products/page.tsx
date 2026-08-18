@@ -1,8 +1,7 @@
-import { useLoaderData } from 'react-router';
-import type { Product } from '../types/product';
+import { getProducts } from '@/lib/api/products';
 
-export default function ProductsPage() {
-  const products = useLoaderData() as Product[];
+export default async function ProductsPage() {
+    const products = await getProducts();
 
   return (
     <main>
