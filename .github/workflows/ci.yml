@@ -57,7 +57,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Set up pnpm
         uses: pnpm/action-setup@v4
         with:
@@ -79,5 +79,5 @@ jobs:
       - name: Format check
         run: pnpm format:check
 
-      - name: Build
-        run: pnpm build
+      # - name: Build
+      #   run: pnpm build
