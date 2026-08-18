@@ -1,7 +1,7 @@
 import { getProducts } from '@/lib/api/products';
 
 export default async function ProductsPage() {
-    const products = await getProducts();
+  const products = await getProducts();
 
   return (
     <main>
